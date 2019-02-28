@@ -1,0 +1,301 @@
+*** Starting uWSGI 2.0.17.1 (64bit) on [Thu Nov 22 16:46:36 2018] ***
+compiled with version: 5.4.0 20160609 on 12 July 2018 06:24:06
+os: Linux-4.15.0-34-generic #37~16.04.1-Ubuntu SMP Tue Aug 28 10:44:06 UTC 2018
+nodename: Rock
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/rock/Python1809/Day09/FlaskTPP
+writing pidfile to uwsgi.pid
+detected binary path: /home/rock/.virtualenvs/Python1809/bin/uwsgi
+chdir() to /home/rock/Python1809/Day09/FlaskTPP
+your processes number limit is 19485
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 0.0.0.0:8000 fd 3
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x1fe87a0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x1fe87a0 pid: 67793 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 67793)
+spawned uWSGI worker 1 (pid: 67801, cores: 2)
+spawned uWSGI worker 2 (pid: 67803, cores: 2)
+spawned uWSGI worker 3 (pid: 67805, cores: 2)
+spawned uWSGI worker 4 (pid: 67806, cores: 2)
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.17.1 (64bit) on [Thu Nov 22 16:49:35 2018] ***
+compiled with version: 5.4.0 20160609 on 12 July 2018 06:24:06
+os: Linux-4.15.0-34-generic #37~16.04.1-Ubuntu SMP Tue Aug 28 10:44:06 UTC 2018
+nodename: Rock
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/rock/Python1809/Day09/FlaskTPP
+writing pidfile to uwsgi.pid
+detected binary path: /home/rock/.virtualenvs/Python1809/bin/uwsgi
+chdir() to /home/rock/Python1809/Day09/FlaskTPP
+your processes number limit is 19485
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:35881 (port auto-assigned) fd 3
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x21bb8a0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x21bb8a0 pid: 68000 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 68000)
+spawned uWSGI worker 1 (pid: 68010, cores: 2)
+spawned uWSGI worker 2 (pid: 68011, cores: 2)
+spawned uWSGI worker 3 (pid: 68012, cores: 2)
+spawned uWSGI worker 4 (pid: 68013, cores: 2)
+spawned uWSGI http 1 (pid: 68014)
+SELECT movie.id AS movie_id, movie.is_delete AS movie_is_delete, movie.m_name AS movie_m_name, movie.m_name_en AS movie_m_name_en, movie.m_director AS movie_m_director, movie.m_leading_role AS movie_m_leading_role, movie.m_duration AS movie_m_duration, movie.m_country AS movie_m_country, movie.m_type AS movie_m_type, movie.m_screen_model AS movie_m_screen_model, movie.m_open_day AS movie_m_open_day, movie.m_introduce AS movie_m_introduce 
+FROM movie
+<class 'flask_sqlalchemy.BaseQuery'>
+SELECT movie.id AS movie_id, movie.m_name AS movie_m_name, sum(seat_order.s_price) AS sum_1 
+FROM movie INNER JOIN pai_dang ON movie.id = pai_dang.p_movie INNER JOIN seat_order ON pai_dang.id = seat_order.s_paidang GROUP BY movie.id ORDER BY -sum(seat_order.s_price)
+(15, '狼牙山孙金川', 400.0)
+(13, '第一會所新片@SIS001@(WANZ)(AVOP-382)ワレメご奉仕パイパンメイドスペシャル_つぼみ_跡美しゅり_宮沢ゆかり_あず希_向井藍_山川ゆな\n', 50.0)
+[pid: 68012|app: 0|req: 1/1] 127.0.0.1 () {38 vars in 780 bytes} [Thu Nov 22 16:51:36 2018] GET /viewer/tickets/ => generated 20 bytes in 142 msecs (HTTP/1.1 200) 2 headers in 71 bytes (1 switches on core 0)
+[pid: 68010|app: 0|req: 1/2] 127.0.0.1 () {38 vars in 744 bytes} [Thu Nov 22 16:51:36 2018] GET /favicon.ico => generated 233 bytes in 10 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 68014)
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.17.1 (64bit) on [Thu Nov 22 16:53:39 2018] ***
+compiled with version: 5.4.0 20160609 on 12 July 2018 06:24:06
+os: Linux-4.15.0-34-generic #37~16.04.1-Ubuntu SMP Tue Aug 28 10:44:06 UTC 2018
+nodename: Rock
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/rock/Python1809/Day09/FlaskTPP
+writing pidfile to uwsgi.pid
+detected binary path: /home/rock/.virtualenvs/Python1809/bin/uwsgi
+chdir() to /home/rock/Python1809/Day09/FlaskTPP
+your processes number limit is 19485
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:42555 (port auto-assigned) fd 3
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x14438a0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x14438a0 pid: 68328 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 68328)
+spawned uWSGI worker 1 (pid: 68333, cores: 2)
+spawned uWSGI worker 2 (pid: 68334, cores: 2)
+spawned uWSGI worker 3 (pid: 68336, cores: 2)
+spawned uWSGI worker 4 (pid: 68339, cores: 2)
+spawned uWSGI http 1 (pid: 68341)
+SIGINT/SIGQUIT received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 68341)
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.17.1 (64bit) on [Thu Nov 22 16:54:00 2018] ***
+compiled with version: 5.4.0 20160609 on 12 July 2018 06:24:06
+os: Linux-4.15.0-34-generic #37~16.04.1-Ubuntu SMP Tue Aug 28 10:44:06 UTC 2018
+nodename: Rock
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/rock/Python1809/Day09/FlaskTPP
+writing pidfile to uwsgi.pid
+detected binary path: /home/rock/.virtualenvs/Python1809/bin/uwsgi
+chdir() to /home/rock/Python1809/Day09/FlaskTPP
+your processes number limit is 19485
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 0.0.0.0:8000 fd 3
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x167b7a0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x167b7a0 pid: 68374 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 68374)
+spawned uWSGI worker 1 (pid: 68381, cores: 2)
+spawned uWSGI worker 2 (pid: 68383, cores: 2)
+spawned uWSGI worker 3 (pid: 68385, cores: 2)
+spawned uWSGI worker 4 (pid: 68386, cores: 2)
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+SELECT movie.id AS movie_id, movie.is_delete AS movie_is_delete, movie.m_name AS movie_m_name, movie.m_name_en AS movie_m_name_en, movie.m_director AS movie_m_director, movie.m_leading_role AS movie_m_leading_role, movie.m_duration AS movie_m_duration, movie.m_country AS movie_m_country, movie.m_type AS movie_m_type, movie.m_screen_model AS movie_m_screen_model, movie.m_open_day AS movie_m_open_day, movie.m_introduce AS movie_m_introduce 
+FROM movie
+<class 'flask_sqlalchemy.BaseQuery'>
+SELECT movie.id AS movie_id, movie.m_name AS movie_m_name, sum(seat_order.s_price) AS sum_1 
+FROM movie INNER JOIN pai_dang ON movie.id = pai_dang.p_movie INNER JOIN seat_order ON pai_dang.id = seat_order.s_paidang GROUP BY movie.id ORDER BY -sum(seat_order.s_price)
+(15, '狼牙山孙金川', 400.0)
+(13, '第一會所新片@SIS001@(WANZ)(AVOP-382)ワレメご奉仕パイパンメイドスペシャル_つぼみ_跡美しゅり_宮沢ゆかり_あず希_向井藍_山川ゆな\n', 50.0)
+[pid: 68383|app: 0|req: 1/1] 127.0.0.1 () {44 vars in 862 bytes} [Thu Nov 22 16:55:04 2018] GET /viewer/tickets/ => generated 20 bytes in 134 msecs (HTTP/1.1 200) 2 headers in 71 bytes (1 switches on core 0)
+SELECT movie.id AS movie_id, movie.is_delete AS movie_is_delete, movie.m_name AS movie_m_name, movie.m_name_en AS movie_m_name_en, movie.m_director AS movie_m_director, movie.m_leading_role AS movie_m_leading_role, movie.m_duration AS movie_m_duration, movie.m_country AS movie_m_country, movie.m_type AS movie_m_type, movie.m_screen_model AS movie_m_screen_model, movie.m_open_day AS movie_m_open_day, movie.m_introduce AS movie_m_introduce 
+FROM movie
+<class 'flask_sqlalchemy.BaseQuery'>
+SELECT movie.id AS movie_id, movie.m_name AS movie_m_name, sum(seat_order.s_price) AS sum_1 
+FROM movie INNER JOIN pai_dang ON movie.id = pai_dang.p_movie INNER JOIN seat_order ON pai_dang.id = seat_order.s_paidang GROUP BY movie.id ORDER BY -sum(seat_order.s_price)
+(15, '狼牙山孙金川', 400.0)
+(13, '第一會所新片@SIS001@(WANZ)(AVOP-382)ワレメご奉仕パイパンメイドスペシャル_つぼみ_跡美しゅり_宮沢ゆかり_あず希_向井藍_山川ゆな\n', 50.0)
+[pid: 68386|app: 0|req: 1/2] 127.0.0.1 () {44 vars in 862 bytes} [Thu Nov 22 16:55:08 2018] GET /viewer/tickets/ => generated 20 bytes in 132 msecs (HTTP/1.1 200) 2 headers in 71 bytes (1 switches on core 0)
+SELECT movie.id AS movie_id, movie.is_delete AS movie_is_delete, movie.m_name AS movie_m_name, movie.m_name_en AS movie_m_name_en, movie.m_director AS movie_m_director, movie.m_leading_role AS movie_m_leading_role, movie.m_duration AS movie_m_duration, movie.m_country AS movie_m_country, movie.m_type AS movie_m_type, movie.m_screen_model AS movie_m_screen_model, movie.m_open_day AS movie_m_open_day, movie.m_introduce AS movie_m_introduce 
+FROM movie
+<class 'flask_sqlalchemy.BaseQuery'>
+SELECT movie.id AS movie_id, movie.m_name AS movie_m_name, sum(seat_order.s_price) AS sum_1 
+FROM movie INNER JOIN pai_dang ON movie.id = pai_dang.p_movie INNER JOIN seat_order ON pai_dang.id = seat_order.s_paidang GROUP BY movie.id ORDER BY -sum(seat_order.s_price)
+(15, '狼牙山孙金川', 400.0)
+(13, '第一會所新片@SIS001@(WANZ)(AVOP-382)ワレメご奉仕パイパンメイドスペシャル_つぼみ_跡美しゅり_宮沢ゆかり_あず希_向井藍_山川ゆな\n', 50.0)
+[pid: 68386|app: 0|req: 2/3] 10.0.111.150 () {40 vars in 700 bytes} [Thu Nov 22 16:55:30 2018] GET /viewer/tickets/ => generated 20 bytes in 6 msecs (HTTP/1.1 200) 2 headers in 71 bytes (1 switches on core 1)
+SELECT movie.id AS movie_id, movie.is_delete AS movie_is_delete, movie.m_name AS movie_m_name, movie.m_name_en AS movie_m_name_en, movie.m_director AS movie_m_director, movie.m_leading_role AS movie_m_leading_role, movie.m_duration AS movie_m_duration, movie.m_country AS movie_m_country, movie.m_type AS movie_m_type, movie.m_screen_model AS movie_m_screen_model, movie.m_open_day AS movie_m_open_day, movie.m_introduce AS movie_m_introduce 
+FROM movie
+<class 'flask_sqlalchemy.BaseQuery'>
+SELECT movie.id AS movie_id, movie.m_name AS movie_m_name, sum(seat_order.s_price) AS sum_1 
+FROM movie INNER JOIN pai_dang ON movie.id = pai_dang.p_movie INNER JOIN seat_order ON pai_dang.id = seat_order.s_paidang GROUP BY movie.id ORDER BY -sum(seat_order.s_price)
+(15, '狼牙山孙金川', 400.0)
+(13, '第一會所新片@SIS001@(WANZ)(AVOP-382)ワレメご奉仕パイパンメイドスペシャル_つぼみ_跡美しゅり_宮沢ゆかり_あず希_向井藍_山川ゆな\n', 50.0)
+[pid: 68386|app: 0|req: 3/4] 10.0.111.150 () {42 vars in 731 bytes} [Thu Nov 22 16:55:34 2018] GET /viewer/tickets/ => generated 20 bytes in 8 msecs (HTTP/1.1 200) 2 headers in 71 bytes (1 switches on core 0)
+SELECT movie.id AS movie_id, movie.is_delete AS movie_is_delete, movie.m_name AS movie_m_name, movie.m_name_en AS movie_m_name_en, movie.m_director AS movie_m_director, movie.m_leading_role AS movie_m_leading_role, movie.m_duration AS movie_m_duration, movie.m_country AS movie_m_country, movie.m_type AS movie_m_type, movie.m_screen_model AS movie_m_screen_model, movie.m_open_day AS movie_m_open_day, movie.m_introduce AS movie_m_introduce 
+FROM movie
+<class 'flask_sqlalchemy.BaseQuery'>
+SELECT movie.id AS movie_id, movie.m_name AS movie_m_name, sum(seat_order.s_price) AS sum_1 
+FROM movie INNER JOIN pai_dang ON movie.id = pai_dang.p_movie INNER JOIN seat_order ON pai_dang.id = seat_order.s_paidang GROUP BY movie.id ORDER BY -sum(seat_order.s_price)
+(15, '狼牙山孙金川', 400.0)
+(13, '第一會所新片@SIS001@(WANZ)(AVOP-382)ワレメご奉仕パイパンメイドスペシャル_つぼみ_跡美しゅり_宮沢ゆかり_あず希_向井藍_山川ゆな\n', 50.0)
+[pid: 68386|app: 0|req: 4/5] 10.0.111.150 () {42 vars in 731 bytes} [Thu Nov 22 16:55:36 2018] GET /viewer/tickets/ => generated 20 bytes in 6 msecs (HTTP/1.1 200) 2 headers in 71 bytes (1 switches on core 1)
+SELECT movie.id AS movie_id, movie.is_delete AS movie_is_delete, movie.m_name AS movie_m_name, movie.m_name_en AS movie_m_name_en, movie.m_director AS movie_m_director, movie.m_leading_role AS movie_m_leading_role, movie.m_duration AS movie_m_duration, movie.m_country AS movie_m_country, movie.m_type AS movie_m_type, movie.m_screen_model AS movie_m_screen_model, movie.m_open_day AS movie_m_open_day, movie.m_introduce AS movie_m_introduce 
+FROM movie
+<class 'flask_sqlalchemy.BaseQuery'>
+SELECT movie.id AS movie_id, movie.m_name AS movie_m_name, sum(seat_order.s_price) AS sum_1 
+FROM movie INNER JOIN pai_dang ON movie.id = pai_dang.p_movie INNER JOIN seat_order ON pai_dang.id = seat_order.s_paidang GROUP BY movie.id ORDER BY -sum(seat_order.s_price)
+(15, '狼牙山孙金川', 400.0)
+(13, '第一會所新片@SIS001@(WANZ)(AVOP-382)ワレメご奉仕パイパンメイドスペシャル_つぼみ_跡美しゅり_宮沢ゆかり_あず希_向井藍_山川ゆな\n', 50.0)
+[pid: 68386|app: 0|req: 5/6] 10.0.111.150 () {42 vars in 731 bytes} [Thu Nov 22 16:55:37 2018] GET /viewer/tickets/ => generated 20 bytes in 5 msecs (HTTP/1.1 200) 2 headers in 71 bytes (1 switches on core 0)
+SELECT movie.id AS movie_id, movie.is_delete AS movie_is_delete, movie.m_name AS movie_m_name, movie.m_name_en AS movie_m_name_en, movie.m_director AS movie_m_director, movie.m_leading_role AS movie_m_leading_role, movie.m_duration AS movie_m_duration, movie.m_country AS movie_m_country, movie.m_type AS movie_m_type, movie.m_screen_model AS movie_m_screen_model, movie.m_open_day AS movie_m_open_day, movie.m_introduce AS movie_m_introduce 
+FROM movie
+<class 'flask_sqlalchemy.BaseQuery'>
+SELECT movie.id AS movie_id, movie.m_name AS movie_m_name, sum(seat_order.s_price) AS sum_1 
+FROM movie INNER JOIN pai_dang ON movie.id = pai_dang.p_movie INNER JOIN seat_order ON pai_dang.id = seat_order.s_paidang GROUP BY movie.id ORDER BY -sum(seat_order.s_price)
+(15, '狼牙山孙金川', 400.0)
+(13, '第一會所新片@SIS001@(WANZ)(AVOP-382)ワレメご奉仕パイパンメイドスペシャル_つぼみ_跡美しゅり_宮沢ゆかり_あず希_向井藍_山川ゆな\n', 50.0)
+[pid: 68386|app: 0|req: 6/7] 10.0.111.150 () {42 vars in 731 bytes} [Thu Nov 22 16:55:38 2018] GET /viewer/tickets/ => generated 20 bytes in 9 msecs (HTTP/1.1 200) 2 headers in 71 bytes (1 switches on core 1)
+SELECT movie.id AS movie_id, movie.is_delete AS movie_is_delete, movie.m_name AS movie_m_name, movie.m_name_en AS movie_m_name_en, movie.m_director AS movie_m_director, movie.m_leading_role AS movie_m_leading_role, movie.m_duration AS movie_m_duration, movie.m_country AS movie_m_country, movie.m_type AS movie_m_type, movie.m_screen_model AS movie_m_screen_model, movie.m_open_day AS movie_m_open_day, movie.m_introduce AS movie_m_introduce 
+FROM movie
+<class 'flask_sqlalchemy.BaseQuery'>
+SELECT movie.id AS movie_id, movie.m_name AS movie_m_name, sum(seat_order.s_price) AS sum_1 
+FROM movie INNER JOIN pai_dang ON movie.id = pai_dang.p_movie INNER JOIN seat_order ON pai_dang.id = seat_order.s_paidang GROUP BY movie.id ORDER BY -sum(seat_order.s_price)
+(15, '狼牙山孙金川', 400.0)
+(13, '第一會所新片@SIS001@(WANZ)(AVOP-382)ワレメご奉仕パイパンメイドスペシャル_つぼみ_跡美しゅり_宮沢ゆかり_あず希_向井藍_山川ゆな\n', 50.0)
+[pid: 68386|app: 0|req: 7/8] 10.0.111.150 () {42 vars in 731 bytes} [Thu Nov 22 16:55:38 2018] GET /viewer/tickets/ => generated 20 bytes in 10 msecs (HTTP/1.1 200) 2 headers in 71 bytes (1 switches on core 0)
+SELECT movie.id AS movie_id, movie.is_delete AS movie_is_delete, movie.m_name AS movie_m_name, movie.m_name_en AS movie_m_name_en, movie.m_director AS movie_m_director, movie.m_leading_role AS movie_m_leading_role, movie.m_duration AS movie_m_duration, movie.m_country AS movie_m_country, movie.m_type AS movie_m_type, movie.m_screen_model AS movie_m_screen_model, movie.m_open_day AS movie_m_open_day, movie.m_introduce AS movie_m_introduce 
+FROM movie
+<class 'flask_sqlalchemy.BaseQuery'>
+SELECT movie.id AS movie_id, movie.m_name AS movie_m_name, sum(seat_order.s_price) AS sum_1 
+FROM movie INNER JOIN pai_dang ON movie.id = pai_dang.p_movie INNER JOIN seat_order ON pai_dang.id = seat_order.s_paidang GROUP BY movie.id ORDER BY -sum(seat_order.s_price)
+(15, '狼牙山孙金川', 400.0)
+(13, '第一會所新片@SIS001@(WANZ)(AVOP-382)ワレメご奉仕パイパンメイドスペシャル_つぼみ_跡美しゅり_宮沢ゆかり_あず希_向井藍_山川ゆな\n', 50.0)
+[pid: 68386|app: 0|req: 8/9] 10.0.111.150 () {42 vars in 731 bytes} [Thu Nov 22 16:55:38 2018] GET /viewer/tickets/ => generated 20 bytes in 8 msecs (HTTP/1.1 200) 2 headers in 71 bytes (1 switches on core 1)
+SELECT movie.id AS movie_id, movie.is_delete AS movie_is_delete, movie.m_name AS movie_m_name, movie.m_name_en AS movie_m_name_en, movie.m_director AS movie_m_director, movie.m_leading_role AS movie_m_leading_role, movie.m_duration AS movie_m_duration, movie.m_country AS movie_m_country, movie.m_type AS movie_m_type, movie.m_screen_model AS movie_m_screen_model, movie.m_open_day AS movie_m_open_day, movie.m_introduce AS movie_m_introduce 
+FROM movie
+<class 'flask_sqlalchemy.BaseQuery'>
+SELECT movie.id AS movie_id, movie.m_name AS movie_m_name, sum(seat_order.s_price) AS sum_1 
+FROM movie INNER JOIN pai_dang ON movie.id = pai_dang.p_movie INNER JOIN seat_order ON pai_dang.id = seat_order.s_paidang GROUP BY movie.id ORDER BY -sum(seat_order.s_price)
+(15, '狼牙山孙金川', 400.0)
+(13, '第一會所新片@SIS001@(WANZ)(AVOP-382)ワレメご奉仕パイパンメイドスペシャル_つぼみ_跡美しゅり_宮沢ゆかり_あず希_向井藍_山川ゆな\n', 50.0)
+[pid: 68386|app: 0|req: 9/10] 10.0.111.150 () {42 vars in 731 bytes} [Thu Nov 22 16:55:39 2018] GET /viewer/tickets/ => generated 20 bytes in 6 msecs (HTTP/1.1 200) 2 headers in 71 bytes (1 switches on core 0)
+SELECT movie.id AS movie_id, movie.is_delete AS movie_is_delete, movie.m_name AS movie_m_name, movie.m_name_en AS movie_m_name_en, movie.m_director AS movie_m_director, movie.m_leading_role AS movie_m_leading_role, movie.m_duration AS movie_m_duration, movie.m_country AS movie_m_country, movie.m_type AS movie_m_type, movie.m_screen_model AS movie_m_screen_model, movie.m_open_day AS movie_m_open_day, movie.m_introduce AS movie_m_introduce 
+FROM movie
+<class 'flask_sqlalchemy.BaseQuery'>
+SELECT movie.id AS movie_id, movie.m_name AS movie_m_name, sum(seat_order.s_price) AS sum_1 
+FROM movie INNER JOIN pai_dang ON movie.id = pai_dang.p_movie INNER JOIN seat_order ON pai_dang.id = seat_order.s_paidang GROUP BY movie.id ORDER BY -sum(seat_order.s_price)
+(15, '狼牙山孙金川', 400.0)
+(13, '第一會所新片@SIS001@(WANZ)(AVOP-382)ワレメご奉仕パイパンメイドスペシャル_つぼみ_跡美しゅり_宮沢ゆかり_あず希_向井藍_山川ゆな\n', 50.0)
+[pid: 68386|app: 0|req: 10/11] 10.0.111.150 () {42 vars in 731 bytes} [Thu Nov 22 16:55:39 2018] GET /viewer/tickets/ => generated 20 bytes in 8 msecs (HTTP/1.1 200) 2 headers in 71 bytes (1 switches on core 1)
+SELECT movie.id AS movie_id, movie.is_delete AS movie_is_delete, movie.m_name AS movie_m_name, movie.m_name_en AS movie_m_name_en, movie.m_director AS movie_m_director, movie.m_leading_role AS movie_m_leading_role, movie.m_duration AS movie_m_duration, movie.m_country AS movie_m_country, movie.m_type AS movie_m_type, movie.m_screen_model AS movie_m_screen_model, movie.m_open_day AS movie_m_open_day, movie.m_introduce AS movie_m_introduce 
+FROM movie
+<class 'flask_sqlalchemy.BaseQuery'>
+SELECT movie.id AS movie_id, movie.m_name AS movie_m_name, sum(seat_order.s_price) AS sum_1 
+FROM movie INNER JOIN pai_dang ON movie.id = pai_dang.p_movie INNER JOIN seat_order ON pai_dang.id = seat_order.s_paidang GROUP BY movie.id ORDER BY -sum(seat_order.s_price)
+(15, '狼牙山孙金川', 400.0)
+(13, '第一會所新片@SIS001@(WANZ)(AVOP-382)ワレメご奉仕パイパンメイドスペシャル_つぼみ_跡美しゅり_宮沢ゆかり_あず希_向井藍_山川ゆな\n', 50.0)
+[pid: 68386|app: 0|req: 11/12] 10.0.111.150 () {42 vars in 731 bytes} [Thu Nov 22 16:55:39 2018] GET /viewer/tickets/ => generated 20 bytes in 8 msecs (HTTP/1.1 200) 2 headers in 71 bytes (1 switches on core 0)
+SELECT movie.id AS movie_id, movie.is_delete AS movie_is_delete, movie.m_name AS movie_m_name, movie.m_name_en AS movie_m_name_en, movie.m_director AS movie_m_director, movie.m_leading_role AS movie_m_leading_role, movie.m_duration AS movie_m_duration, movie.m_country AS movie_m_country, movie.m_type AS movie_m_type, movie.m_screen_model AS movie_m_screen_model, movie.m_open_day AS movie_m_open_day, movie.m_introduce AS movie_m_introduce 
+FROM movie
+<class 'flask_sqlalchemy.BaseQuery'>
+SELECT movie.id AS movie_id, movie.m_name AS movie_m_name, sum(seat_order.s_price) AS sum_1 
+FROM movie INNER JOIN pai_dang ON movie.id = pai_dang.p_movie INNER JOIN seat_order ON pai_dang.id = seat_order.s_paidang GROUP BY movie.id ORDER BY -sum(seat_order.s_price)
+(15, '狼牙山孙金川', 400.0)
+(13, '第一會所新片@SIS001@(WANZ)(AVOP-382)ワレメご奉仕パイパンメイドスペシャル_つぼみ_跡美しゅり_宮沢ゆかり_あず希_向井藍_山川ゆな\n', 50.0)
+[pid: 68383|app: 0|req: 2/13] 10.0.111.150 () {42 vars in 731 bytes} [Thu Nov 22 16:55:39 2018] GET /viewer/tickets/ => generated 20 bytes in 8 msecs (HTTP/1.1 200) 2 headers in 71 bytes (1 switches on core 1)
+SELECT movie.id AS movie_id, movie.is_delete AS movie_is_delete, movie.m_name AS movie_m_name, movie.m_name_en AS movie_m_name_en, movie.m_director AS movie_m_director, movie.m_leading_role AS movie_m_leading_role, movie.m_duration AS movie_m_duration, movie.m_country AS movie_m_country, movie.m_type AS movie_m_type, movie.m_screen_model AS movie_m_screen_model, movie.m_open_day AS movie_m_open_day, movie.m_introduce AS movie_m_introduce 
+FROM movie
+<class 'flask_sqlalchemy.BaseQuery'>
+SELECT movie.id AS movie_id, movie.m_name AS movie_m_name, sum(seat_order.s_price) AS sum_1 
+FROM movie INNER JOIN pai_dang ON movie.id = pai_dang.p_movie INNER JOIN seat_order ON pai_dang.id = seat_order.s_paidang GROUP BY movie.id ORDER BY -sum(seat_order.s_price)
+(15, '狼牙山孙金川', 400.0)
+(13, '第一會所新片@SIS001@(WANZ)(AVOP-382)ワレメご奉仕パイパンメイドスペシャル_つぼみ_跡美しゅり_宮沢ゆかり_あず希_向井藍_山川ゆな\n', 50.0)
+[pid: 68381|app: 0|req: 1/14] 10.0.111.150 () {42 vars in 731 bytes} [Thu Nov 22 16:55:40 2018] GET /viewer/tickets/ => generated 20 bytes in 119 msecs (HTTP/1.1 200) 2 headers in 71 bytes (1 switches on core 0)
+[pid: 68385|app: 0|req: 1/15] 127.0.0.1 () {42 vars in 801 bytes} [Thu Nov 22 17:03:26 2018] GET / => generated 233 bytes in 9 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)

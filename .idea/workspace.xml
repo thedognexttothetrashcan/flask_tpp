@@ -1,0 +1,811 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a9f2ca02-a190-4a1e-9743-92b775fb15c9" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/FlaskTPP$SendSMS.coverage" NAME="SendSMS Coverage Results" MODIFIED="1542783245555" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code" />
+    <SUITE FILE_PATH="coverage/FlaskTPP$date_time_utils.coverage" NAME="date_time_utils Coverage Results" MODIFIED="1542764921436" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/App/utils" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="FlaskTPP1809@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="FlaskTPP1809@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="FlaskTPP1809@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="FlaskTPP1809: schema" type="c314c289:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="gameconfig.conf" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/code/gameconfig.conf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="139">
+              <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="34" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Flask Main" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>args</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>request.form</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/FlaskTPP.py" />
+        <option value="$PROJECT_DIR$/App/__init__.py" />
+        <option value="$PROJECT_DIR$/manage.py" />
+        <option value="$PROJECT_DIR$/App/models/admin/user_model.py" />
+        <option value="$PROJECT_DIR$/App/models/admin/__init__.py" />
+        <option value="$PROJECT_DIR$/App/models/__init__.py" />
+        <option value="$PROJECT_DIR$/App/apis/admin/__init__.py" />
+        <option value="$PROJECT_DIR$/App/models/cinema/user_model.py" />
+        <option value="$PROJECT_DIR$/App/utils/token_utils.py" />
+        <option value="$PROJECT_DIR$/App/apis/admin/user_apis.py" />
+        <option value="$PROJECT_DIR$/App/apis/cinema/user_api.py" />
+        <option value="$PROJECT_DIR$/App/apis/admin/decorator.py" />
+        <option value="$PROJECT_DIR$/App/apis/cinema/decorator.py" />
+        <option value="$PROJECT_DIR$/App/utils/user_utils.py" />
+        <option value="$PROJECT_DIR$/App/apis/cinema/cinema_api.py" />
+        <option value="$PROJECT_DIR$/App/apis/common/__init__.py" />
+        <option value="$PROJECT_DIR$/App/apis/__init__.py" />
+        <option value="$PROJECT_DIR$/App/apis/common/movie_api.py" />
+        <option value="$PROJECT_DIR$/App/models/cinema/cinema_user_movie_model.py" />
+        <option value="$PROJECT_DIR$/App/models/cinema/order_model.py" />
+        <option value="$PROJECT_DIR$/App/apis/cinema/cinema_movie_api.py" />
+        <option value="$PROJECT_DIR$/alipay/alipay_rsa_public_key.pem" />
+        <option value="$PROJECT_DIR$/App/settings.py" />
+        <option value="$PROJECT_DIR$/App/ext.py" />
+        <option value="$PROJECT_DIR$/App/apis/cinema/order_api.py" />
+        <option value="$PROJECT_DIR$/App/apis/cinema/order_status_api.py" />
+        <option value="$PROJECT_DIR$/App/models/cinema/hall_model.py" />
+        <option value="$PROJECT_DIR$/App/models/cinema/cinema_model.py" />
+        <option value="$PROJECT_DIR$/App/apis/cinema/hall_api.py" />
+        <option value="$PROJECT_DIR$/App/utils/date_time_utils.py" />
+        <option value="$PROJECT_DIR$/App/apis/cinema/__init__.py" />
+        <option value="$PROJECT_DIR$/App/apis/cinema/paidang_api.py" />
+        <option value="$PROJECT_DIR$/App/models/viewer/user_model.py" />
+        <option value="$PROJECT_DIR$/code/SendSMS.py" />
+        <option value="$PROJECT_DIR$/App/utils/verify_code_utils.py" />
+        <option value="$PROJECT_DIR$/App/apis/viewer/user_api.py" />
+        <option value="$PROJECT_DIR$/App/apis/viewer/decorator.py" />
+        <option value="$PROJECT_DIR$/App/models/viewer/seat_order_model.py" />
+        <option value="$PROJECT_DIR$/App/models/cinema/paidang_model.py" />
+        <option value="$PROJECT_DIR$/App/apis/viewer/seat_utils.py" />
+        <option value="$PROJECT_DIR$/App/apis/viewer/seat_api.py" />
+        <option value="$PROJECT_DIR$/App/apis/viewer/order_api.py" />
+        <option value="$PROJECT_DIR$/code/Note.md" />
+        <option value="$PROJECT_DIR$/App/apis/viewer/__init__.py" />
+        <option value="$PROJECT_DIR$/App/models/common/movie_model.py" />
+        <option value="$PROJECT_DIR$/App/apis/viewer/ticket_api.py" />
+        <option value="$PROJECT_DIR$/uwsgi.ini" />
+        <option value="$PROJECT_DIR$/code/gameconfig.conf" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="53" />
+    <option name="y" value="-4" />
+    <option name="width" value="1387" />
+    <option name="height" value="904" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="FlaskTPP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FlaskTPP" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FlaskTPP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FlaskTPP" type="462c0819:PsiDirectoryNode" />
+              <item name="2048" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FlaskTPP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FlaskTPP" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="SearchEverywhereHistoryKey" value="func&#9;null&#9;null&#10;BaseQuery&#9;null&#9;null&#10;datetime&#9;null&#9;null" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/App/apis/viewer" />
+      <recent name="$PROJECT_DIR$/alipay" />
+      <recent name="$PROJECT_DIR$/App/apis/cinema" />
+      <recent name="$PROJECT_DIR$/App/models/cinema" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.SendSMS">
+    <configuration name="FlaskTPP" type="PythonConfigurationType" factoryName="Python" singleton="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="FlaskTPP" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="SendSMS" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="FlaskTPP" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code/SendSMS.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="date_time_utils" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/App/utils" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="FlaskTPP" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/App/utils/date_time_utils.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="Python.FlaskTPP" />
+      <item index="1" class="java.lang.String" itemvalue="Python.date_time_utils" />
+      <item index="2" class="java.lang.String" itemvalue="Python.SendSMS" />
+    </list>
+    <recent_temporary>
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Python.SendSMS" />
+        <item index="1" class="java.lang.String" itemvalue="Python.date_time_utils" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",SHOW_INHERITED" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a9f2ca02-a190-4a1e-9743-92b775fb15c9" name="Default" comment="" />
+      <created>1542607912154</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1542607912154</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="53" y="-4" width="1387" height="904" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3181818" sideWeight="0.5026178" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885906" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6697987" sideWeight="0.4973822" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17053103" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="R Packages" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="R Graphics" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24981302" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885906" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/App/models/cinema/hall_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="13" column="44" lean-forward="false" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/models/cinema/cinema_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="13" column="64" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/apis/cinema/order_api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="40" column="24" lean-forward="true" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/python-skeletons/datetime.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="266" column="6" lean-forward="false" selection-start-line="266" selection-start-column="6" selection-end-line="266" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/utils/date_time_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/apis/cinema/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="19" column="21" lean-forward="false" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/48a0ad46/dc1e9dfe-17f4-4824-9a2a-68b264455f57/FlaskTPP1809.hall" />
+    <entry file="file://$PROJECT_DIR$/App/models/cinema/cinema_user_movie_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="14" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/48a0ad46/dc1e9dfe-17f4-4824-9a2a-68b264455f57/FlaskTPP1809.movie" />
+    <entry file="das://table:/48a0ad46/dc1e9dfe-17f4-4824-9a2a-68b264455f57/FlaskTPP1809.cinema_user_movie" />
+    <entry file="das://table:/48a0ad46/dc1e9dfe-17f4-4824-9a2a-68b264455f57/FlaskTPP1809.pai_dang" />
+    <entry file="file://$PROJECT_DIR$/App/models/viewer/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/models/cinema/user_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="19" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/apis/cinema/user_api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="77" column="41" lean-forward="false" selection-start-line="77" selection-start-column="41" selection-end-line="77" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/apis/admin/user_apis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="568">
+          <caret line="98" column="42" lean-forward="false" selection-start-line="98" selection-start-column="42" selection-end-line="98" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/models/viewer/user_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="11" lean-forward="false" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#73#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/utils/token_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="18" lean-forward="false" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2017.3/system/python_stubs/281763716/time.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="262" column="4" lean-forward="false" selection-start-line="262" selection-start-column="4" selection-end-line="262" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/Python1809/lib/python3.5/hashlib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="44" column="5" lean-forward="false" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/Python1809/lib/python3.5/site-packages/requests/api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="59" column="27" lean-forward="false" selection-start-line="59" selection-start-column="27" selection-end-line="59" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/Python1809/lib/python3.5/site-packages/requests/sessions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="466" column="43" lean-forward="false" selection-start-line="466" selection-start-column="36" selection-end-line="466" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/utils/verify_code_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="35" column="21" lean-forward="false" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/SendSMS.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="35" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/apis/viewer/user_api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="676">
+          <caret line="84" column="37" lean-forward="false" selection-start-line="84" selection-start-column="37" selection-end-line="84" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#25#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/apis/viewer/decorator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="25" column="25" lean-forward="false" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#28#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/apis/cinema/hall_api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="17" column="30" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="17" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/apis/cinema/paidang_api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="22" column="3" lean-forward="false" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/apis/viewer/seat_api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="60" column="9" lean-forward="true" selection-start-line="60" selection-start-column="9" selection-end-line="60" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#15#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/apis/viewer/seat_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#15#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/apis/viewer/order_api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="69" column="30" lean-forward="false" selection-start-line="69" selection-start-column="30" selection-end-line="69" selection-end-column="30" />
+          <folding>
+            <element signature="e#1#41#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/dc1e9dfe-17f4-4824-9a2a-68b264455f57.SCHEMA:FlaskTPP1809">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>dc1e9dfe-17f4-4824-9a2a-68b264455f57.SCHEMA:FlaskTPP1809</OriginalElement>
+          <nodes>
+            <node x="1017.25" y="933.0">dc1e9dfe-17f4-4824-9a2a-68b264455f57.TABLE:FlaskTPP1809.viewer_user</node>
+            <node x="367.44722222222214" y="0.0">dc1e9dfe-17f4-4824-9a2a-68b264455f57.TABLE:FlaskTPP1809.cinema_user</node>
+            <node x="292.74999999999994" y="577.0">dc1e9dfe-17f4-4824-9a2a-68b264455f57.TABLE:FlaskTPP1809.hall</node>
+            <node x="343.24999999999994" y="906.0">dc1e9dfe-17f4-4824-9a2a-68b264455f57.TABLE:FlaskTPP1809.pai_dang</node>
+            <node x="609.0" y="496.0">dc1e9dfe-17f4-4824-9a2a-68b264455f57.TABLE:FlaskTPP1809.movie</node>
+            <node x="575.25" y="919.5">dc1e9dfe-17f4-4824-9a2a-68b264455f57.TABLE:FlaskTPP1809.order</node>
+            <node x="0.0" y="13.5">dc1e9dfe-17f4-4824-9a2a-68b264455f57.TABLE:FlaskTPP1809.c_u_permission</node>
+            <node x="683.2888888888888" y="1181.0">dc1e9dfe-17f4-4824-9a2a-68b264455f57.TABLE:FlaskTPP1809.seat_order</node>
+            <node x="286.24999999999994" y="194.0">dc1e9dfe-17f4-4824-9a2a-68b264455f57.TABLE:FlaskTPP1809.cinema</node>
+            <node x="39.25" y="248.0">dc1e9dfe-17f4-4824-9a2a-68b264455f57.TABLE:FlaskTPP1809.cinema_permission</node>
+            <node x="782.25" y="946.5">dc1e9dfe-17f4-4824-9a2a-68b264455f57.TABLE:FlaskTPP1809.cinema_user_movie</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="dc1e9dfe-17f4-4824-9a2a-68b264455f57.TABLE:FlaskTPP1809.cinema_permission" target="dc1e9dfe-17f4-4824-9a2a-68b264455f57.TABLE:FlaskTPP1809.cinema_user">
+              <point x="56.75" y="-72.0" />
+              <point x="209.5" y="164.0" />
+              <point x="397.44722222222214" y="164.0" />
+              <point x="-90.0" y="72.0" />
+            </edge>
+            <edge source="dc1e9dfe-17f4-4824-9a2a-68b264455f57.TABLE:FlaskTPP1809.cinema_permission" target="dc1e9dfe-17f4-4824-9a2a-68b264455f57.TABLE:FlaskTPP1809.c_u_permission">
+              <point x="-56.75" y="-72.0" />
+              <point x="0.0" y="58.5" />
+            </edge>
+            <edge source="dc1e9dfe-17f4-4824-9a2a-68b264455f57.TABLE:FlaskTPP1809.hall" target="dc1e9dfe-17f4-4824-9a2a-68b264455f57.TABLE:FlaskTPP1809.cinema">
+              <point x="0.0" y="-99.0" />
+              <point x="0.0" y="126.0" />
+            </edge>
+            <edge source="dc1e9dfe-17f4-4824-9a2a-68b264455f57.TABLE:FlaskTPP1809.seat_order" target="dc1e9dfe-17f4-4824-9a2a-68b264455f57.TABLE:FlaskTPP1809.pai_dang">
+              <point x="-50.75" y="-126.0" />
+              <point x="734.0388888888888" y="1156.0" />
+              <point x="449.24999999999994" y="1156.0" />
+              <point x="0.0" y="112.5" />
+            </edge>
+            <edge source="dc1e9dfe-17f4-4824-9a2a-68b264455f57.TABLE:FlaskTPP1809.cinema" target="dc1e9dfe-17f4-4824-9a2a-68b264455f57.TABLE:FlaskTPP1809.cinema_user">
+              <point x="0.0" y="-126.0" />
+              <point x="396.24999999999994" y="174.0" />
+              <point x="457.44722222222214" y="174.0" />
+              <point x="-30.0" y="72.0" />
+            </edge>
+            <edge source="dc1e9dfe-17f4-4824-9a2a-68b264455f57.TABLE:FlaskTPP1809.pai_dang" target="dc1e9dfe-17f4-4824-9a2a-68b264455f57.TABLE:FlaskTPP1809.movie">
+              <point x="53.0" y="-112.5" />
+              <point x="502.24999999999994" y="886.0" />
+              <point x="652.3333333333333" y="886.0" />
+              <point x="-86.66666666666663" y="180.0" />
+            </edge>
+            <edge source="dc1e9dfe-17f4-4824-9a2a-68b264455f57.TABLE:FlaskTPP1809.seat_order" target="dc1e9dfe-17f4-4824-9a2a-68b264455f57.TABLE:FlaskTPP1809.viewer_user">
+              <point x="50.75" y="-126.0" />
+              <point x="835.5388888888888" y="1156.0" />
+              <point x="1137.25" y="1156.0" />
+              <point x="0.0" y="85.5" />
+            </edge>
+            <edge source="dc1e9dfe-17f4-4824-9a2a-68b264455f57.TABLE:FlaskTPP1809.cinema_user_movie" target="dc1e9dfe-17f4-4824-9a2a-68b264455f57.TABLE:FlaskTPP1809.cinema_user">
+              <point x="53.75" y="-72.0" />
+              <point x="943.5" y="886.0" />
+              <point x="925.0722222222221" y="886.0" />
+              <point x="925.0722222222221" y="164.0" />
+              <point x="577.4472222222221" y="164.0" />
+              <point x="90.0" y="72.0" />
+            </edge>
+            <edge source="dc1e9dfe-17f4-4824-9a2a-68b264455f57.TABLE:FlaskTPP1809.cinema_user_movie" target="dc1e9dfe-17f4-4824-9a2a-68b264455f57.TABLE:FlaskTPP1809.movie">
+              <point x="-53.75" y="-72.0" />
+              <point x="836.0" y="886.0" />
+              <point x="825.6666666666667" y="886.0" />
+              <point x="86.66666666666674" y="180.0" />
+            </edge>
+            <edge source="dc1e9dfe-17f4-4824-9a2a-68b264455f57.TABLE:FlaskTPP1809.pai_dang" target="dc1e9dfe-17f4-4824-9a2a-68b264455f57.TABLE:FlaskTPP1809.hall">
+              <point x="-53.0" y="-112.5" />
+              <point x="0.0" y="99.0" />
+            </edge>
+            <edge source="dc1e9dfe-17f4-4824-9a2a-68b264455f57.TABLE:FlaskTPP1809.order" target="dc1e9dfe-17f4-4824-9a2a-68b264455f57.TABLE:FlaskTPP1809.movie">
+              <point x="46.75" y="-99.0" />
+              <point x="715.5" y="886.0" />
+              <point x="739.0" y="886.0" />
+              <point x="0.0" y="180.0" />
+            </edge>
+            <edge source="dc1e9dfe-17f4-4824-9a2a-68b264455f57.TABLE:FlaskTPP1809.order" target="dc1e9dfe-17f4-4824-9a2a-68b264455f57.TABLE:FlaskTPP1809.cinema_user">
+              <point x="-46.75" y="-99.0" />
+              <point x="622.0" y="876.0" />
+              <point x="598.5" y="876.0" />
+              <point x="598.5" y="174.0" />
+              <point x="517.4472222222221" y="174.0" />
+              <point x="30.0" y="72.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.939102564102564" x="570.4573378839591" y="148.70989761092153" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/Note.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="524">
+            <caret line="53" column="16" lean-forward="false" selection-start-line="53" selection-start-column="16" selection-end-line="53" selection-end-column="16" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/apis/viewer/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="15" column="50" lean-forward="false" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/Python1809/lib/python3.5/site-packages/flask_sqlalchemy/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="61" column="6" lean-forward="false" selection-start-line="61" selection-start-column="6" selection-end-line="61" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#9#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/Python1809/lib/python3.5/site-packages/flask_sqlalchemy/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="406" column="25" lean-forward="false" selection-start-line="406" selection-start-column="20" selection-end-line="406" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/Python1809/lib/python3.5/site-packages/sqlalchemy/orm/query.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-564">
+          <caret line="2004" column="0" lean-forward="true" selection-start-line="2004" selection-start-column="0" selection-end-line="2004" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/Python1809/lib/python3.5/site-packages/sqlalchemy/sql/functions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1668">
+          <caret line="400" column="29" lean-forward="false" selection-start-line="400" selection-start-column="11" selection-end-line="400" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/models/common/movie_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="15" column="14" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/models/cinema/paidang_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="12" column="14" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/models/viewer/seat_order_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="13" column="11" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/3cea1e65/dc1e9dfe-17f4-4824-9a2a-68b264455f57/FlaskTPP1809.movie">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/3cea1e65/dc1e9dfe-17f4-4824-9a2a-68b264455f57/FlaskTPP1809.cinema_user_movie">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/3cea1e65/dc1e9dfe-17f4-4824-9a2a-68b264455f57/FlaskTPP1809.order">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/3cea1e65/dc1e9dfe-17f4-4824-9a2a-68b264455f57/FlaskTPP1809.pai_dang">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/3cea1e65/dc1e9dfe-17f4-4824-9a2a-68b264455f57/FlaskTPP1809.seat_order">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/apis/viewer/ticket_api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="23" column="27" lean-forward="false" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#34#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2048/data/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2214">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uwsgi.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-21">
+          <caret line="2" column="18" lean-forward="true" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uwsgi.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-95">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uwsgi.pid">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/gameconfig.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
